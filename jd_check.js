@@ -43,7 +43,7 @@ async function accountCheck(user){
         const pin = await getEnvByPtPin(user.uname)
         if (pin?.id) {
             await DisableCk(pin.id)
-            user.log(`${user.uname}-账号已在青龙面板被禁用`)
+            user.log(`${user.uname}-账号已在朱雀面板被禁用`)
         }
     }
 }

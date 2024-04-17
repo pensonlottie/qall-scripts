@@ -12,7 +12,7 @@
 #### 自定义菜单脚本开发
 > 温馨提示：每个脚本需在menu_config.json配置后才能生效,文件名以bot_开头
 <br>字段说明: name是菜单名称，script: 菜单执行对应的脚本(\*.js|\*.ts|\*.py|\*.sh)，enabled: 是否启用，admin: 需要管理员权限
-<br>调用说明: qallbot机器人执行脚本调用的是青龙task命令，可以直接读取环境变量
+<br>调用说明: qallbot机器人执行脚本调用的是朱雀task命令，可以直接读取环境变量
 ```
 [
   {"name":"京东资产", "script":"/ql/data/scripts/qallbot/bot_jd_bean.js", "enabled":true, role: "normal"}

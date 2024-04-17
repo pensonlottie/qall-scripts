@@ -1,7 +1,7 @@
 # qallbot-scripts
 
 #### 介绍
-青龙脚本库和机器人脚本库
+朱雀脚本库和机器人脚本库
 
 #### 免责声明
 > ***您使用或者复制了本仓库的任何脚本，则视为`已接受`此声明且遵守下载后的24小时内清除所有下载内容，请仔细阅读***
@@ -33,15 +33,15 @@ ql repo https://gitee.com/hj_qinglong/qallbot-scripts.git "jd_" "lib|qallbot" "l
     }
 }
 ```
-> 拉库前请在青龙面板安装以下依赖
+> 拉库前请在朱雀面板安装以下依赖
 ```
 got
 crypto-js
 ```
 
-#### 青龙命令
+#### 朱雀命令
 ```
-# 更新并重启青龙
+# 更新并重启朱雀
 ql update                                                    
 # 运行自定义脚本extra.sh
 ql extra                                                     
@@ -53,7 +53,7 @@ ql repo <仓库地址url> <白名单> <黑名单> <依赖> <分支> <文件后�
 ql rmlog <天数>                                              
 # 启动tg-bot
 ql bot                                                       
-# 检测青龙环境并修复
+# 检测朱雀环境并修复
 ql check                                                     
 # 重置登录错误次数
 ql resetlet                                                  
