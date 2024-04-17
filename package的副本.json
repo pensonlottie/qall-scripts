@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "crypto-js": "^4.0.0",
+        "got": "^11.5.1",
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.3.0",
+        "gulp-concat": "^2.6.1"
+    }
+}

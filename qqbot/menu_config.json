@@ -1,0 +1,10 @@
+{
+  "basePath":"/ql/data/scripts/qlpanel_scripts/qallbot",
+  "list":[
+    {"name":"禁用重复", "script":"bot_duplicate.py", "enabled":true, "admin": true},
+    {"name":"账号检测", "script":"bot_jd_check.js", "enabled":true},
+    {"name":"京东资产", "script":"bot_jd_bean.js", "enabled":true},
+    {"name":"京豆明细", "script":"bot_jd_bean_detail.js", "enabled":true},
+    {"name":"开心一笑", "script":"bot_joke.js", "enabled":true}
+  ]
+}
