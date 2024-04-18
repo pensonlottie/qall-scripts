@@ -23,7 +23,7 @@
   },
   "name": "qallbot-scripts",
   "description": "#### qallbot脚本库和qallbot机器人脚本库",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "gulpfile.js",
   "directories": {
     "lib": "lib"
